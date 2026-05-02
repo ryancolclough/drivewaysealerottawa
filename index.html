@@ -3,353 +3,179 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Driveway Sealer Ottawa</title>
+<title>Driveway Sealer Ottawa | Driveway Sealing & Asphalt Repairs</title>
+<meta name="description" content="Ottawa driveway sealing, asphalt repairs, crack filling, pothole repair, and commercial sealing. Call or text for a fast free quote." />
 
 <style>
+:root{
+  --yellow:#ffc400;
+  --yellow2:#ffb700;
+  --black:#050505;
+  --white:#fff;
+}
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#111}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#111;background:#fff}
 a{text-decoration:none;color:inherit}
-:root{--yellow:#ffc400;--black:#050505}
-
-.hero{
-  position:relative;
-  min-height:900px;
-  background:url("assets/hero-desktop.png") top center/cover no-repeat;
-}
-
-.nav{
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  z-index:5;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:24px 34px;
-}
-
-.logo{
-  font-weight:900;
-  line-height:.85;
-  color:white;
-  font-size:28px;
-  letter-spacing:-1px;
-}
-
-.logo span{
-  display:block;
-  color:var(--yellow);
-  font-size:40px;
-}
-
-.logo small{
-  display:block;
-  font-size:13px;
-  letter-spacing:5px;
-  margin-top:8px;
-  color:white;
-}
-
-.actions{
-  display:flex;
-  align-items:center;
-  gap:18px;
-}
-
-.call{
-  width:58px;
-  height:58px;
-  border-radius:50%;
-  border:4px solid var(--yellow);
-  color:var(--yellow);
-  background:#050505;
-  display:grid;
-  place-items:center;
-  font-size:26px;
-}
-
-.menu{
-  width:42px;
-  display:block;
-}
-
-.menu i{
-  display:block;
-  height:5px;
-  background:white;
-  border-radius:5px;
-  margin:7px 0;
-}
-
-.wrap{
-  max-width:1180px;
-  margin:auto;
-  padding:55px 22px;
-}
-
+.wrap{max-width:1180px;margin:0 auto;padding:56px 24px}
 .center{text-align:center}
 .yellow{color:var(--yellow)}
-
-.eyebrow{
-  color:var(--yellow);
-  font-weight:900;
-  text-transform:uppercase;
-  font-size:14px;
-}
-
-h2{
-  font-size:36px;
-  margin:10px 0 24px;
-}
-
-.photo-row{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:18px;
-}
-
-.photo{
-  height:220px;
-  border-radius:14px;
-  background:center/cover no-repeat;
-  position:relative;
-  overflow:hidden;
-  box-shadow:0 8px 24px rgba(0,0,0,.15);
-}
-
-.photo:after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:linear-gradient(transparent,rgba(0,0,0,.55));
-}
-
-.before{background-image:url("assets/hero-desktop.png")}
-.during{background-image:url("assets/hero-mobile.png")}
-.finished{background-image:url("assets/hero-desktop.png")}
-
-.label{
-  position:absolute;
-  z-index:2;
-  bottom:14px;
-  left:14px;
-  background:#000;
-  color:white;
-  padding:8px 12px;
-  border-radius:6px;
-  font-weight:900;
-}
-
-.service-grid{
-  display:grid;
-  grid-template-columns:repeat(5,1fr);
-  gap:14px;
-}
-
-.service{
-  border:1px solid #e6e6e6;
-  border-radius:14px;
-  padding:24px 14px;
-  box-shadow:0 6px 18px rgba(0,0,0,.06);
-}
-
-.circle{
-  width:70px;
-  height:70px;
-  border-radius:50%;
-  background:#050505;
-  color:var(--yellow);
-  display:grid;
-  place-items:center;
-  margin:0 auto 14px;
-  font-size:32px;
-}
-
-.why-stats{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-}
-
-.why{
-  background:#050505;
-  color:white;
-  padding:55px 50px;
-}
-
-.why div{
-  margin:11px 0;
-}
-
-.stats{
-  background:var(--yellow);
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:20px;
-  padding:55px 50px;
-}
-
-.stat b{
-  font-size:40px;
-  display:block;
-}
-
-.area-list{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:16px;
-  font-weight:800;
-}
-
-.quote{
-  background:#050505;
-  color:white;
-}
-
-.form{
-  max-width:850px;
-  margin:auto;
-}
-
-.form-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:12px;
-}
-
-input,select,textarea{
-  width:100%;
-  border:0;
-  border-radius:8px;
-  padding:16px;
-  margin-bottom:12px;
-  font-size:15px;
-}
-
-textarea{min-height:120px}
-
-.upload{
-  border:1.5px dashed rgba(255,255,255,.65);
-  border-radius:10px;
-  padding:22px;
-  margin:8px 0 14px;
-}
+.eyebrow{color:var(--yellow);font-weight:900;text-transform:uppercase;letter-spacing:.4px;font-size:14px}
+h1{font-size:62px;line-height:1.02;letter-spacing:-2px;margin:14px 0 16px}
+h2{font-size:36px;line-height:1.1;margin:10px 0 24px}
+p{line-height:1.45}
 
 .btn{
-  width:100%;
-  border:0;
-  border-radius:8px;
-  background:var(--yellow);
-  color:#000;
-  font-weight:900;
-  padding:17px;
-  font-size:18px;
+  display:flex;align-items:center;gap:15px;
+  min-height:72px;width:100%;
+  padding:14px 22px;border-radius:10px;
+  background:linear-gradient(180deg,var(--yellow),var(--yellow2));
+  color:#000;font-weight:900;border:0;
+  box-shadow:0 10px 22px rgba(0,0,0,.24)
 }
+.btn span{display:block;font-weight:500;margin-top:3px}
+.btn .ico{font-size:32px;min-width:48px;text-align:center}
+.btn.outline{background:rgba(0,0,0,.45);color:#fff;border:2px solid rgba(255,255,255,.8);box-shadow:none}
+.btnrow{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;max-width:780px;margin-top:26px}
 
-.footer{
-  background:#050505;
-  color:white;
-  border-top:1px solid #333;
-  padding:28px 22px;
+/* CLEAN BACKGROUND + FUNCTIONAL HTML OVERLAY */
+.hero{
+  color:#fff;
+  min-height:780px;
+  background:
+    linear-gradient(90deg,rgba(0,0,0,.98) 0%,rgba(0,0,0,.78) 45%,rgba(0,0,0,.18) 78%),
+    url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85") center/cover no-repeat;
 }
-
-.footer-grid{
-  max-width:1180px;
-  margin:auto;
-  display:grid;
-  grid-template-columns:1.4fr 1fr 1fr 1fr;
-  gap:22px;
-  align-items:center;
+.nav{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:24px 34px;
 }
+.logo{
+  color:#fff;font-weight:950;line-height:.86;font-size:28px;letter-spacing:-1px;
+  text-shadow:0 3px 10px rgba(0,0,0,.55);
+}
+.logo .seal{display:block;color:var(--yellow);font-size:40px}
+.logo small{display:block;color:#fff;font-size:13px;letter-spacing:5px;margin-top:9px}
+.actions{display:flex;align-items:center;gap:18px}
+.callbubble{
+  width:58px;height:58px;border-radius:50%;
+  display:grid;place-items:center;
+  border:4px solid var(--yellow);
+  color:var(--yellow);background:#050505;
+  font-size:26px;
+}
+.menu{width:42px;display:block}
+.menu i{display:block;height:5px;background:#fff;border-radius:6px;margin:7px 0}
+.hero-inner{max-width:760px;padding-top:80px}
+.hero-inner .desc{font-size:21px;max-width:550px}
+.underline{width:92px;height:6px;background:var(--yellow);border-radius:5px;margin:14px 0 26px}
 
+.trust{
+  max-width:950px;margin-top:34px;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:0;
+}
+.trust-item{
+  display:flex;align-items:center;gap:12px;
+  border-right:1px solid rgba(255,255,255,.35);
+  padding:10px 18px;
+}
+.trust-item:last-child{border-right:0}
+.trust-ico{font-size:34px;color:var(--yellow)}
+.trust-item b{display:block;font-size:14px;text-transform:uppercase}
+.trust-item span{display:block;font-size:13px;color:#eee}
+.google-card{
+  max-width:740px;margin-top:30px;
+  background:linear-gradient(180deg,#252525,#151515);
+  border-radius:18px;padding:18px 28px;
+  display:flex;align-items:center;justify-content:center;gap:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,.35)
+}
+.g-logo{font-size:42px;font-weight:900}
+.stars{color:var(--yellow);font-size:30px;letter-spacing:3px}
+.rating-text{font-weight:900}
+
+.photo-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.photo{
+  height:215px;border-radius:14px;background:center/cover no-repeat;
+  position:relative;overflow:hidden;box-shadow:0 8px 22px rgba(0,0,0,.15)
+}
+.photo:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent,rgba(0,0,0,.6))}
+.before{background-image:url("https://images.unsplash.com/photo-1598524374912-6b2f50534a1d?auto=format&fit=crop&w=900&q=80")}
+.during{background-image:url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80")}
+.finished{background-image:url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80")}
+.label{position:absolute;z-index:2;bottom:14px;left:14px;background:#000;color:#fff;padding:8px 12px;border-radius:6px;font-weight:900}
+
+.service-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.service{
+  background:#fff;border:1px solid #e7e7e7;border-radius:14px;
+  padding:24px 14px;box-shadow:0 6px 18px rgba(0,0,0,.06)
+}
+.circle{
+  width:70px;height:70px;border-radius:50%;background:#050505;color:var(--yellow);
+  display:grid;place-items:center;margin:0 auto 14px;font-size:32px;
+}
+.service h3{font-size:17px;margin:0 0 8px}
+.service p{font-size:14px;margin:0}
+
+.why-stats{display:grid;grid-template-columns:1fr 1fr}
+.why{background:#050505;color:#fff;padding:56px 50px}
+.why div{margin:11px 0}
+.stats{
+  background:linear-gradient(180deg,var(--yellow),var(--yellow2));
+  display:grid;grid-template-columns:1fr 1fr;gap:22px;
+  padding:56px 50px;color:#000
+}
+.stat b{font-size:40px;display:block;line-height:1}
+.area-list{display:flex;justify-content:center;flex-wrap:wrap;gap:16px;font-weight:800}
+.quote{background:#050505;color:#fff}
+.form{max-width:850px;margin:0 auto}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+input,select,textarea{
+  width:100%;border:0;border-radius:8px;padding:16px;
+  margin-bottom:12px;font-size:15px;
+}
+textarea{min-height:120px}
+.upload{border:1.5px dashed rgba(255,255,255,.65);border-radius:10px;padding:22px;margin:8px 0 14px}
+.submit{justify-content:center;min-height:54px;font-size:18px;cursor:pointer}
+.footer{background:#050505;color:#fff;border-top:1px solid #333;padding:28px 22px}
+.footer-grid{max-width:1180px;margin:auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:22px;align-items:center}
 .footer b{color:var(--yellow)}
 .copy{text-align:center;color:#ccc;font-size:12px;margin-top:16px}
 
 @media(max-width:850px){
   .hero{
-    min-height:1200px;
-    background:url("assets/hero-mobile.png") top center/cover no-repeat;
+    min-height:auto;
+    background:
+      linear-gradient(180deg,rgba(0,0,0,.32) 0%,rgba(0,0,0,.42) 28%,rgba(0,0,0,.96) 76%,#000 100%),
+      url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=85") top center/cover no-repeat;
   }
-
-  .nav{
-    padding:22px 22px;
-  }
-
-  .logo{
-    font-size:22px;
-  }
-
-  .logo span{
-    font-size:31px;
-  }
-
-  .logo small{
-    font-size:10px;
-    letter-spacing:3px;
-  }
-
-  .call{
-    width:48px;
-    height:48px;
-    font-size:22px;
-    border-width:3px;
-  }
-
-  .menu{
-    width:34px;
-  }
-
-  .menu i{
-    height:4px;
-    margin:6px 0;
-  }
-
-  .wrap{
-    padding:42px 18px;
-  }
-
-  h2{
-    font-size:30px;
-  }
-
-  .photo-row{
-    display:flex;
-    overflow-x:auto;
-    gap:12px;
-  }
-
-  .photo{
-    min-width:78%;
-    height:155px;
-  }
-
-  .service-grid{
-    display:flex;
-    overflow-x:auto;
-    gap:12px;
-  }
-
-  .service{
-    min-width:160px;
-  }
-
-  .why-stats{
-    grid-template-columns:1fr;
-  }
-
-  .why,.stats{
-    padding:40px 24px;
-  }
-
-  .form-grid{
-    grid-template-columns:1fr;
-  }
-
-  .footer-grid{
-    grid-template-columns:1fr;
-    text-align:center;
-  }
+  .nav{padding:22px 22px 0}
+  .logo{font-size:22px}.logo .seal{font-size:31px}.logo small{font-size:10px;letter-spacing:3px}
+  .callbubble{width:48px;height:48px;font-size:22px;border-width:3px}
+  .menu{width:34px}.menu i{height:4px;margin:6px 0}
+  .wrap{padding:42px 18px}
+  .hero-inner{padding-top:220px}
+  .eyebrow{font-size:18px;line-height:1.35}
+  h1{font-size:42px;letter-spacing:-1px}
+  h2{font-size:30px}
+  .hero-inner .desc{font-size:19px;max-width:430px}
+  .btnrow{grid-template-columns:1fr;gap:12px}
+  .btn{min-height:70px}
+  .trust{grid-template-columns:1fr 1fr;border-top:1px solid rgba(255,255,255,.25);border-bottom:1px solid rgba(255,255,255,.25)}
+  .trust-item{border-right:1px solid rgba(255,255,255,.25);border-bottom:1px solid rgba(255,255,255,.25);padding:16px 10px}
+  .trust-item:nth-child(2),.trust-item:nth-child(4){border-right:0}
+  .trust-item:nth-child(3),.trust-item:nth-child(4){border-bottom:0}
+  .trust-ico{font-size:32px}.trust-item b{font-size:12px}.trust-item span{font-size:12px}
+  .google-card{padding:16px 14px;gap:10px}.g-logo{font-size:34px}.stars{font-size:23px;letter-spacing:1px}
+  .photo-row{display:flex;overflow-x:auto;gap:12px;padding-bottom:8px}
+  .photo{min-width:78%;height:155px}
+  .service-grid{display:flex;overflow-x:auto;gap:12px;padding-bottom:8px}
+  .service{min-width:160px}
+  .why-stats,.form-grid,.footer-grid{grid-template-columns:1fr}
+  .why,.stats{padding:40px 24px}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat b{font-size:31px}
+  .footer-grid{text-align:center}
 }
 </style>
 </head>
@@ -358,17 +184,36 @@ textarea{min-height:120px}
 
 <section class="hero">
   <div class="nav">
-    <div class="logo">
-      DRIVEWAY
-      <span>SEALER</span>
-      <small>OTTAWA</small>
+    <div class="logo">DRIVEWAY<span class="seal">SEALER</span><small>OTTAWA</small></div>
+    <div class="actions">
+      <a class="callbubble" href="tel:6132963535">☎</a>
+      <a class="menu" href="#quote" aria-label="Go to quote form"><i></i><i></i><i></i></a>
+    </div>
+  </div>
+
+  <div class="wrap hero-inner">
+    <div class="eyebrow">Ottawa’s Local<br>Driveway Sealing Experts</div>
+    <h1>Ottawa Driveway Sealing & Asphalt Repairs</h1>
+    <div class="underline"></div>
+    <p class="desc">Protect your driveway, improve curb appeal, and get a fast local quote.</p>
+
+    <div class="btnrow">
+      <a class="btn" href="#quote"><div class="ico">📋</div><div>GET FREE QUOTE<span>Fast & Easy</span></div></a>
+      <a class="btn outline" href="tel:6132963535"><div class="ico">📞</div><div>CALL NOW<span>613-296-3535</span></div></a>
+      <a class="btn outline" href="sms:6132963535"><div class="ico">💬</div><div>TEXT PHOTOS<span>For Estimate</span></div></a>
     </div>
 
-    <div class="actions">
-      <a class="call" href="tel:6132963535">☎</a>
-      <a class="menu" href="#quote">
-        <i></i><i></i><i></i>
-      </a>
+    <div class="trust">
+      <div class="trust-item"><div class="trust-ico">🛡</div><div><b>Premium Materials</b><span>Built to Last</span></div></div>
+      <div class="trust-item"><div class="trust-ico">☆</div><div><b>5 Star Rated</b><span>Local & Trusted</span></div></div>
+      <div class="trust-item"><div class="trust-ico">🛡</div><div><b>Fully Insured</b><span>Peace of Mind</span></div></div>
+      <div class="trust-item"><div class="trust-ico">▦</div><div><b>Fast Booking</b><span>Book in Days</span></div></div>
+    </div>
+
+    <div class="google-card">
+      <div class="g-logo">G</div>
+      <div class="stars">★★★★★</div>
+      <div><div class="rating-text">5.0 RATING</div><div>100+ Happy Customers</div></div>
     </div>
   </div>
 </section>
@@ -376,7 +221,6 @@ textarea{min-height:120px}
 <section class="wrap center">
   <div class="eyebrow">Quality Work You Can See</div>
   <h2>From Start to Finish</h2>
-
   <div class="photo-row">
     <div class="photo before"><span class="label">BEFORE</span></div>
     <div class="photo during"><span class="label">DURING</span></div>
@@ -387,7 +231,6 @@ textarea{min-height:120px}
 <section class="wrap center">
   <div class="eyebrow">Our Services</div>
   <h2>Complete Asphalt & Driveway Solutions</h2>
-
   <div class="service-grid">
     <div class="service"><div class="circle">⛏</div><h3>Driveway Sealing</h3><p>Protect asphalt from UV rays, water, oil & everyday wear.</p></div>
     <div class="service"><div class="circle">✦</div><h3>Crack Filling</h3><p>Prevent cracks from spreading and stop water damage.</p></div>
@@ -407,7 +250,6 @@ textarea{min-height:120px}
     <div>✓ Clean work, on time, every time</div>
     <div>✓ 100% satisfaction guarantee</div>
   </div>
-
   <div class="stats">
     <div class="stat"><b>15+</b>Years Experience</div>
     <div class="stat"><b>1000+</b>Driveways Sealed</div>
@@ -419,19 +261,10 @@ textarea{min-height:120px}
 <section class="wrap center">
   <div class="eyebrow">Proudly Serving Ottawa & Area</div>
   <h2>Service Areas</h2>
-
   <div class="area-list">
-    <span>📍 Kanata</span>
-    <span>📍 Nepean</span>
-    <span>📍 Barrhaven</span>
-    <span>📍 Orléans</span>
-    <span>📍 Stittsville</span>
-    <span>📍 Manotick</span>
-    <span>📍 Greely</span>
-    <span>📍 Carp</span>
-    <span>📍 Rockland</span>
+    <span>📍 Kanata</span><span>📍 Nepean</span><span>📍 Barrhaven</span><span>📍 Orléans</span>
+    <span>📍 Stittsville</span><span>📍 Manotick</span><span>📍 Greely</span><span>📍 Carp</span><span>📍 Rockland</span>
   </div>
-
   <p><b>...and surrounding areas!</b></p>
 </section>
 
@@ -440,7 +273,6 @@ textarea{min-height:120px}
     <div class="form">
       <h2 class="yellow">GET YOUR FREE QUOTE</h2>
       <p>Fast, Easy & No Obligation</p>
-
       <form>
         <div class="form-grid">
           <input placeholder="Full Name">
@@ -448,7 +280,6 @@ textarea{min-height:120px}
           <input placeholder="Email Address">
           <input placeholder="Municipality">
         </div>
-
         <select>
           <option>Driveway Size (approx.)</option>
           <option>Single Driveway</option>
@@ -456,14 +287,10 @@ textarea{min-height:120px}
           <option>Large Driveway</option>
           <option>Commercial</option>
         </select>
-
         <textarea placeholder="Additional Details"></textarea>
-
         <div class="upload">Tap to upload or choose files</div>
-
-        <button class="btn" type="button">GET FREE QUOTE</button>
+        <button class="btn submit" type="button">GET FREE QUOTE</button>
       </form>
-
       <p>Prefer to text photos? <b class="yellow">613-296-3535</b></p>
     </div>
   </div>
@@ -471,17 +298,11 @@ textarea{min-height:120px}
 
 <footer class="footer">
   <div class="footer-grid">
-    <div class="logo">
-      DRIVEWAY
-      <span>SEALER</span>
-      <small>OTTAWA</small>
-    </div>
-
+    <div class="logo">DRIVEWAY<span class="seal">SEALER</span><small>OTTAWA</small></div>
     <div>📞 <b>613-296-3535</b><br>Call or Text Anytime</div>
     <div>📍 <b>Ottawa, ON</b><br>Serving Ottawa & Area</div>
     <div>🛡 <b>Fully Insured</b><br>Peace of Mind</div>
   </div>
-
   <div class="copy">© 2026 Driveway Sealer Ottawa. All Rights Reserved.</div>
 </footer>
 
