@@ -288,7 +288,10 @@ textarea{min-height:120px}
           <option>Commercial</option>
         </select>
         <textarea placeholder="Additional Details"></textarea>
-        <div class="upload">Tap to upload or choose files</div>
+        <label class="upload">
+         Tap to upload or choose files
+        <input type="file" name="photos" accept="image/*" multiple style="display:none;">
+        </label>
         <button class="btn submit" type="button">GET FREE QUOTE</button>
       </form>
       <p>Prefer to text photos? <b class="yellow">613-296-3535</b></p>
