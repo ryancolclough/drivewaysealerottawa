@@ -176,6 +176,138 @@ textarea{min-height:120px}
   .stats{grid-template-columns:1fr 1fr}
   .stat b{font-size:31px}
   .footer-grid{text-align:center}
+  
+  .trust-area{background:#000}
+
+.trust-area .why{background:#050505;color:#fff;padding:58px 50px}
+
+.trust-area .why h2{font-size:44px}
+
+.stats-clean{
+
+  background:linear-gradient(180deg,var(--yellow),var(--yellow2));
+
+  display:grid;
+
+  grid-template-columns:1fr 1fr;
+
+  padding:52px 30px;
+
+  gap:50px 20px;
+
+  text-align:center;
+
+}
+
+.stats-clean b{display:block;font-size:54px;line-height:1;font-weight:900;color:#000}
+
+.stats-clean span{display:block;margin-top:12px;font-size:14px;font-weight:900;letter-spacing:2px;text-transform:uppercase;color:#000}
+
+.service-band{
+
+  background:#050505;
+
+  color:var(--yellow);
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:24px;
+
+  padding:24px 18px;
+
+  text-align:center;
+
+}
+
+.service-band span,.surrounding span{width:82px;height:2px;background:var(--yellow);display:block}
+
+.service-band b{font-size:15px;letter-spacing:4px;text-transform:uppercase}
+
+.service-clean{background:#fff;text-align:center;padding:36px 18px 44px}
+
+.service-clean h2{
+
+  margin:0 0 34px;
+
+  font-size:28px;
+
+  letter-spacing:10px;
+
+  text-transform:uppercase;
+
+  font-weight:900;
+
+}
+
+.areas-clean{
+
+  max-width:760px;
+
+  margin:0 auto;
+
+  display:grid;
+
+  grid-template-columns:repeat(3,1fr);
+
+  gap:30px 18px;
+
+}
+
+.areas-clean em{display:block;font-style:normal;font-size:34px;line-height:1;color:var(--yellow);margin-bottom:8px}
+
+.areas-clean b{font-size:13px;letter-spacing:2px;text-transform:uppercase}
+
+.surrounding{
+
+  margin-top:34px;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:16px;
+
+}
+
+.surrounding b{font-size:12px;letter-spacing:4px;text-transform:uppercase}
+
+@media(max-width:850px){
+
+  .trust-area .why{padding:48px 38px}
+
+  .trust-area .why h2{font-size:44px}
+
+  .stats-clean{padding:48px 18px;gap:48px 12px}
+
+  .stats-clean b{font-size:48px}
+
+  .stats-clean span{font-size:13px;letter-spacing:1.8px}
+
+  .service-band{gap:14px}
+
+  .service-band span{width:52px}
+
+  .service-band b{font-size:13px;letter-spacing:3px}
+
+  .service-clean h2{font-size:24px;letter-spacing:8px}
+
+  .areas-clean{gap:28px 8px}
+
+  .areas-clean em{font-size:32px}
+
+  .areas-clean b{font-size:12px;letter-spacing:2px}
+
+  .surrounding span{width:42px}
+
+  .surrounding b{font-size:10px;letter-spacing:3px}
+
+}
 }
 </style>
 </head>
@@ -240,32 +372,78 @@ textarea{min-height:120px}
   </div>
 </section>
 
-<section class="why-stats">
-  <div class="why">
-    <div class="eyebrow">Why Choose Us?</div>
-    <h2>Local. Reliable. Professional.</h2>
-    <div>✓ Local Ottawa company you can count on</div>
-    <div>✓ High-quality, professional-grade materials</div>
-    <div>✓ Experienced and detail-oriented crew</div>
-    <div>✓ Clean work, on time, every time</div>
-    <div>✓ 100% satisfaction guarantee</div>
-  </div>
-  <div class="stats">
-    <div class="stat"><b>15+</b>Years Experience</div>
-    <div class="stat"><b>1000+</b>Driveways Sealed</div>
-    <div class="stat"><b>5★</b>Google Rating</div>
-    <div class="stat"><b>100%</b>Satisfaction Guaranteed</div>
-  </div>
-</section>
+<section class="trust-area">
 
-<section class="wrap center">
-  <div class="eyebrow">Proudly Serving Ottawa & Area</div>
-  <h2>Service Areas</h2>
-  <div class="area-list">
-    <span>📍 Kanata</span><span>📍 Nepean</span><span>📍 Barrhaven</span><span>📍 Orléans</span>
-    <span>📍 Stittsville</span><span>📍 Manotick</span><span>📍 Greely</span><span>📍 Carp</span><span>📍 Rockland</span>
+  <div class="why">
+
+    <div class="eyebrow">Why Choose Us?</div>
+
+    <h2>Local. Reliable. Professional.</h2>
+
+    <div>✓ Local Ottawa company you can count on</div>
+
+    <div>✓ High-quality, professional-grade materials</div>
+
+    <div>✓ Experienced and detail-oriented crew</div>
+
+    <div>✓ Clean work, on time, every time</div>
+
+    <div>✓ 100% satisfaction guarantee</div>
+
   </div>
-  <p><b>...and surrounding areas!</b></p>
+
+  <div class="stats-clean">
+
+    <div><b>15+</b><span>Years Experience</span></div>
+
+    <div><b>1000+</b><span>Driveways Sealed</span></div>
+
+    <div><b>5★</b><span>Google Rating</span></div>
+
+    <div><b>100%</b><span>Satisfaction Guaranteed</span></div>
+
+  </div>
+
+  <div class="service-band">
+
+    <span></span>
+
+    <b>Proudly Serving Ottawa & Area</b>
+
+    <span></span>
+
+  </div>
+
+  <div class="service-clean">
+
+    <h2>Service Areas</h2>
+
+    <div class="areas-clean">
+
+      <div><em>📍</em><b>Kanata</b></div>
+
+      <div><em>📍</em><b>Nepean</b></div>
+
+      <div><em>📍</em><b>Barrhaven</b></div>
+
+      <div><em>📍</em><b>Orléans</b></div>
+
+      <div><em>📍</em><b>Stittsville</b></div>
+
+      <div><em>📍</em><b>Manotick</b></div>
+
+      <div><em>📍</em><b>Greely</b></div>
+
+      <div><em>📍</em><b>Carp</b></div>
+
+      <div><em>📍</em><b>Rockland</b></div>
+
+    </div>
+
+    <div class="surrounding"><span></span><b>And the surrounding areas</b><span></span></div>
+
+  </div>
+
 </section>
 
 <section id="quote" class="quote">
